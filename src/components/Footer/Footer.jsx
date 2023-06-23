@@ -14,9 +14,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer__social">
-        <a href="">Linkdeln</a>
-        <a href="">GitHub</a>
-        <a href="">Twitter</a>
+        <a href="https://www.linkedin.com/in/omra-akhtar-400000207/">Linkdeln</a>
+        <a href="https://github.com/omraakhtarit2020">GitHub</a>
+        <a href="https://twitter.com/AkhtarUmrah">Twitter</a>
       </div>
       <div className="footer__copyright">
         <small>&copy; OAkhtar. All rights reserved.</small>

@@ -47,8 +47,8 @@
 
 @media screen and (max-width:600px) {
     .about__me{
-        width: 65%;
-        margin: 0 auto 3rem;
+        width: 77%;
+        margin: 1rem auto 5rem;
     }
     .about__content{
         text-align: center;
