@@ -1,0 +1,49 @@
+header{
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+    /* background: rgb(1, 62, 85); */
+    background: #002642;
+}
+
+/*Downloadable*/
+.button{
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/*me*/
+.me{
+    background: linear-gradient(var(--color-primary),transparent);
+    width: 18rem;
+    height: 20rem;
+   position: absolute;
+   left:50%;
+   transform: translateX(-50%);
+   margin-top: 3rem;
+   border-radius: 2rem 2rem 2rem 2rem;
+   overflow: hidden;
+   padding: 0;
+   box-shadow: rgba(116, 115, 115, 0.25) 0px 54px 55px, rgba(250, 248, 248, 0.12) 0px -12px 30px, rgba(255, 251, 251, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+@media screen and (max-width:1024px) {
+    header{
+        height: 68vh;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header{
+        height: 100vh;
+    }
+}

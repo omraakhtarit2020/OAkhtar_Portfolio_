@@ -1,0 +1,257 @@
+
+
+.skills__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.technical__skill{
+    text-align: center;
+}
+.technical__skill:hover{
+    background: var(--color-bg);
+    color: #003459;
+    border: 1px solid var(--color-primary);
+    transition: all 3s ease;
+}
+.soft__skill{
+    text-align: center;
+}
+.soft__skill:hover{
+    background: var(--color-bg);
+    color: #003459;
+    border: 1px solid var(--color-primary);
+    transition: all 3s ease;
+}
+.skills__container > div{
+    /* background: var(--color-bg-variant); */
+    background: #000000;
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    color: #f5f5f5;
+}
+.skills__content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    row-gap: 2rem;
+}
+
+.skills__details{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.skills__details-icon{
+    margin-top: 6px;
+    color: var(--color-primary);
+}
+
+.java{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.java :hover{
+    height: 1.7rem;
+    width: 6.4rem;
+    border-radius: 0.8rem;
+    background-color: #95b7ff;
+}
+.html{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color:silver;
+}
+.html :hover{
+    height: 1.7rem;
+    width: 6rem;
+    border-radius: 0.8rem;
+    background-color: #95b7ff;;
+}
+.css{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.css :hover{
+    height: 1.7rem;
+    width: 6.5rem;
+    border-radius: 0.8rem;
+    background-color:#95b7ff;;
+}
+.bootstrap{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.bootstrap :hover{
+    height: 1.7rem;
+    width: 6.9rem;
+    border-radius: 0.8rem;
+    background-color:#95b7ff;;
+}
+.js{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.js :hover{
+    height: 1.7rem;
+    width: 5rem;
+    border-radius: 0.8rem;
+    background-color:#95b7ff;;
+}
+.ds{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.ds :hover{
+    height: 1.7rem;
+    width: 4.2rem;
+    border-radius: 0.8rem;
+    background-color:#95b7ff;;
+}
+.algo{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.algo :hover{
+    height: 1.7rem;
+    width: 4.5rem;
+    border-radius: 0.8rem;
+    background-color:#95b7ff;;
+}
+.pp{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.pp :hover{
+    height: 1.7rem;
+    width: 5.5rem;
+    border-radius: 0.8rem;
+    background-color:#95b7ff;;
+}
+
+.git{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.git :hover{
+    height: 1.7rem;
+    width: 2.5rem;
+    border-radius: 0.8rem;
+    background-color:#95b7ff;;
+}
+
+.sql{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.sql :hover{
+    height: 1.7rem;
+    width: 3.5rem;
+    border-radius: 0.8rem;
+    background-color:#95b7ff;;
+}
+.tw{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.tw :hover{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: #95b7ff;;
+}
+
+.tm{
+    height: 3.3rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.tm :hover{
+    height: 3.3rem;
+    width: 6rem;
+    border-radius: 0.8rem;
+    background-color: #95b7ff;;
+}
+
+.creative{
+    height: 1.7rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.creative :hover{
+    height: 1.7rem;
+    width: 5.7rem;
+    border-radius: 0.8rem;
+    background-color: #95b7ff;;
+}
+
+.ct{
+    height: 3.3rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.ct :hover{
+    height: 3.3rem;
+    width: 4.3rem;
+    border-radius: 0.8rem;
+    background-color: #95b7ff;;
+}
+.ps{
+    height: 3.3rem;
+    width: 7rem;
+    border-radius: 0.8rem;
+    background-color: silver;
+}
+.ps :hover{
+    height: 3.3rem;
+    width: 5rem;
+    border-radius: 0.8rem;
+    background-color:#95b7ff;;
+}
+
+@media screen and (max-width:1024px) {
+    .skills__container{
+        grid-template-columns: 1fr ;
+    }
+    .skills__container > div{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .skills__container{
+        gap: 1rem;
+    }
+
+    .skills__container >div{
+        width: 100%;
+        padding:2rem 1rem ;
+    }
+}
