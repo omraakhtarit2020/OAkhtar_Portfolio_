@@ -13,7 +13,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_itq3uah', 'template_8xn57pq', form.current, 'B3KqaDnB33J2-DKTi')
+    emailjs.sendForm('service_itq3uah', 'template_wjly3go', form.current, 'B3KqaDnB33J2-DKTi')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -39,7 +39,7 @@ const Contact = () => {
           <FontAwesomeIcon icon={faPhone} />
             <h4>WhatsApp</h4>
             <h5>+91 8777714551</h5>
-            <a href="https://api.whatsapp.com/send?phone=+91877714551" target='_blank'>Send A Message</a>
+            <a href="https://api.whatsapp.com/send?phone=+918777714551" target='_blank'>Send A Message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
