@@ -9,7 +9,7 @@ const About = () => {
     <div className="container about__container">
       <div className="about__me">
        <div className="about__me-image">
-        <img src={image} alt="" style={{"height" : "22rem", "width" : "22rem"}}/>
+        <img src={image} alt="" style={{"height" : "20rem", "width" : "20rem"}}/>
        </div>
       </div>
       <div className="about__content">

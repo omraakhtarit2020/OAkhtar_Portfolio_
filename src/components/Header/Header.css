@@ -1,12 +1,12 @@
 header{
-    height: 100vh;
+    height: 100%;
     padding-top: 7rem;
     overflow: hidden;
 }
 
 .header__container{
     text-align: center;
-    height: 100%;
+    height: 100vh;
     position: relative;
     /* background: rgb(1, 62, 85); */
     background: #002642;
